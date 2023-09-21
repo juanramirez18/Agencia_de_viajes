@@ -1,0 +1,28 @@
+extends ./layout/index
+block slider 
+    .slider 
+        h1 Rio de Janeiro 
+        em Aventura
+block contenido
+    main.container.mt-5
+    
+        h2.text-center.mb-5 Sobre nosotros
+        .row.mb-5
+            .col-md-6 
+                p at ultrices dolor aliquet. Duis non libero ut ligula euismod pretium. Ut et lobortis diam. Integer euismod nibh non purus pellentesque auctor. Maecenas convallis leo turpis, non viverra quam ultrices vitae. Morbi suscipit tellus vitae leo viverra vehicula
+                p Duis mollis leo ut tellus posuere varius. Integer eu quam at risus consequat gravida et et magna. Duis facilisis accumsan lorem, nec tristique mi tincidunt et.
+            .col-md-6
+                img(src="/img/inicio_nosotros.jpg", alt="imagen nosotros", class="img-fluid")
+        include ./layout/bloque_viajes
+    .descuento
+        .container 
+            .row
+                .col-md-6 
+                    .contenido 
+                        h3 5% de descuento
+                        p.titulo viaje a Canada 
+                        p.fecha 2 de diciembre de 2023
+                        p.precio $2500
+    .container
+        h2.mt-5.text-center Testimoniales
+        include ./layout/bloque_testimoniales                
