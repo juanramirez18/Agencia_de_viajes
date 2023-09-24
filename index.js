@@ -29,7 +29,7 @@ dataBase()
 
 
 //Definir el puerto
-const port = process.env.port || 4000
+const port = process.env.PORT || 4000
 
 //Habilitar pug
 app.set('view engine', 'pug')
