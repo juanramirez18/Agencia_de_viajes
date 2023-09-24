@@ -17,7 +17,6 @@ dbConnection()
 
 //  sync model db
 const dataBase = async()=>{
-    console.log(testimonial)
     try {
         // await viajes.viajes.sync()
         await testimonial.testimonial.sync()
